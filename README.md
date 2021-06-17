@@ -1,4 +1,4 @@
-# Officla Helm Charts for the Authorizer Platform
+# Official Helm Charts for the Authorizer Platform
 The official Helm chart repository for the [authorizer.tech](https://authorizer-tech.github.io/) - the scalable, flexible, and fast application permission management platform.
 
 ## Charts
