@@ -3,6 +3,6 @@ The official Helm chart repository for [authorizer.tech](https://authorizer-tech
 
 ## Charts
 
-* [authorizer](https://github.com/authorizer-tech/helm-charts/blob/master/authorizer)
+* authorizer - Coming soon!
 * [access-controller](https://github.com/authorizer-tech/helm-charts/blob/master/access-controller)
-* [access-watcher](https://github.com/authorizer-tech/helm-charts/blob/master/access-watcher)
+* access-watcher - Coming soon!
