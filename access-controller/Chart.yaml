@@ -2,9 +2,17 @@ apiVersion: v2
 name: access-controller
 description: A highly scalable open-source implementation of an access-control engine inspired by Google Zanzibar-"Google’s Consistent, Global Authorization System"
 type: application
-version: 0.1.0
-appVersion: "v0.1.0"
-
+version: 0.1.1
+appVersion: "v0.1.1"
+kubeVersion: ">= 1.12.0"
+keywords:
+- iam
+- authorization
+- access-control
+- access-management
+- zanzibar
+sources:
+- https://github.com/authorizer-tech/access-controller
 dependencies:
 - condition: cockroachdb.enabled
   name: cockroachdb
