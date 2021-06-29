@@ -80,6 +80,10 @@ spec:
               protocol: TCP
               name: grpc-gateway
             {{- end }}
+          readinessProbe:
+            exec:
+              command: ["/bin/sh", "-ec",  "grpc_health_probe -addr=:{{ .Values.service.ports.grpc.port }}"]
+            initialDelaySeconds: 5
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       volumes:
