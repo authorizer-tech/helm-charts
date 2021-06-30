@@ -3,7 +3,7 @@ entries:
   access-controller:
   - apiVersion: v2
     appVersion: v0.1.2
-    created: "2021-06-28T22:40:33.304254-06:00"
+    created: "2021-06-30T07:43:14.304125-06:00"
     dependencies:
     - condition: cockroachdb.enabled
       name: cockroachdb
@@ -12,7 +12,7 @@ entries:
     description: A highly scalable open-source implementation of an access-control
       engine inspired by Google Zanzibar-"Google’s Consistent, Global Authorization
       System"
-    digest: 736d64867549c2421461aad5562712d614ee2b91244e1e521b226eac3f93cf08
+    digest: a529c563853d644043a8017be0e7ddede07e5b29a070f4fb5acb7b2d922b9ae9
     keywords:
     - iam
     - authorization
@@ -71,4 +71,4 @@ entries:
     urls:
     - https://authorizer-tech.github.io/helm-charts/access-controller/access-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-18T00:09:57.606218-06:00"
+generated: "2021-06-30T07:43:14.289216-06:00"

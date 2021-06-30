@@ -73,13 +73,13 @@ Specify each parameter using the --set key=value[,key=value] argument to helm in
 helm install access-controller \
   --set grpcGateway.enabled=true \
   --set cockroachdb.auth.password=secretpassword \
-    authorizer/access-controller
+    authorizer-tech/access-controller
 ```
 
 Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart. For example,
 
 ```console
-helm install access-controller -f values.yaml authorizer/access-controller
+helm install access-controller -f values.yaml authorizer-tech/access-controller
 ```
 
 > **Tip**: You can use the default [values.yaml](./values.yaml)
