@@ -1,0 +1,62 @@
+# Default values for authorizer.
+
+# @section Parameters to configure the access-watcher deployment
+watcher:
+
+  # @param watcher.enabled Enable or disable the access-watcher deployment
+  enabled: true
+
+  fullnameOverride: ""
+  nameOverride: ""
+
+  tls:
+    enabled: false
+
+  # @section HTTP/JSON to gRPC Transcoding Parameters
+  grpcGateway:
+    ## @param grpcGateway.enabled Enabled HTTP/JSON to gRPC Transcoding and serve the HTTP server
+    ##
+    enabled: false
+
+  image:
+    registry: gcr.io
+    repository: authorizer-tech/access-watcher
+    tag: "latest"
+    pullPolicy: "IfNotPresent"
+    pullSecrets: []
+
+  autoscaling:
+    # @param autoscaling.enabled Enable or disable autoscaling support
+    enabled: false
+    minReplicas: 1
+    maxReplicas: 10
+    targetCPU: 65
+    targetMemory: 65
+
+  service:
+    ports:
+      grpc:
+        port: 50052
+      grpcGateway:
+        port: 8082
+
+  podLabels: {}
+  podAnnotations: {}
+  podSecurityContext: {}
+  containerSecurityContext: {}
+
+  resources:
+    limits: {}
+    requests: {}
+  nodeSelector: {}
+  tolerations: []
+  affinity: {}
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
