@@ -1,6 +1,6 @@
 apiVersion: v2
 name: authorizer
-description: A Helm chart for the Authorizer platform - the scalable, flexible, and fast application permission management platform.
+description: A Helm chart for the Authorizer platform - The scalable, flexible, and fast permission and access-management platform.
 type: application
 version: 0.1.0
 kubeVersion: ">= 1.12.0"
