@@ -14,4 +14,4 @@ keywords:
 dependencies:
 - name: access-controller
   version: "0.1.2"
-  repository: https://authorizer-tech.github.io/helm-charts/
+  repository: https://charts.authorizer.tech

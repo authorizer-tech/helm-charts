@@ -1,6 +1,6 @@
 dependencies:
 - name: access-controller
-  repository: https://authorizer-tech.github.io/helm-charts/
+  repository: https://charts.authorizer.tech
   version: 0.1.2
-digest: sha256:ab713244efd78bddaf6e1b56e3f2b8f9d125c6d8fe88eaafa310cbf6f3ed60a4
-generated: "2021-06-30T08:53:29.108788-06:00"
+digest: sha256:6033c862fbc7de122fe44d0644e05f0b6b477a8ade254a0c112deb71517261d0
+generated: "2021-07-06T21:52:49.502638-06:00"
