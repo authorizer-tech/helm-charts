@@ -13,7 +13,7 @@ It also packages the [official CockroachDB chart](https://github.com/cockroachdb
 To install the chart with the release name `access-controller`:
 
 ```console
-$ helm repo add authorizer-tech https://authorizer-tech.github.io/helm-charts/
+$ helm repo add authorizer-tech https://charts.authorizer.tech
 $ helm install access-controller authorizer-tech/access-controller
 ```
 
