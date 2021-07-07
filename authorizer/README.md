@@ -11,7 +11,7 @@ This chart bootstraps an instance of the [Authorizer](https://authorizer-tech.gi
 To install the chart with the release name `authorizer`:
 
 ```console
-$ helm repo add authorizer-tech https://authorizer-tech.github.io/helm-charts/
+$ helm repo add authorizer-tech https://charts.authorizer.tech
 $ helm install authorizer authorizer-tech/authorizer
 ```
 

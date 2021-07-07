@@ -73,14 +73,14 @@ entries:
     version: 0.1.0
   authorizer:
   - apiVersion: v2
-    created: "2021-07-06T19:26:11.4105-06:00"
+    created: "2021-07-06T22:03:06.972371-06:00"
     dependencies:
     - name: access-controller
-      repository: https://authorizer-tech.github.io/helm-charts/
+      repository: https://charts.authorizer.tech
       version: 0.1.2
     description: A Helm chart for the Authorizer platform - The scalable, flexible,
       and fast permission and access-management platform.
-    digest: a538bc5e1296198e3eabb5f44cdb9f95125fb9f673cb6d1d7b2f079af17335c3
+    digest: 1fb5bd5264e2d922bd2c5125e7a9d6773f0b5551e8714e11db996a4ce88195f4
     keywords:
     - iam
     - authorization
@@ -94,4 +94,4 @@ entries:
     urls:
     - https://authorizer-tech.github.io/helm-charts/authorizer/authorizer-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-06T21:51:26.357725-06:00"
+generated: "2021-07-06T22:03:06.933747-06:00"
