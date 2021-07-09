@@ -1,0 +1,6 @@
+dependencies:
+- name: access-controller
+  repository: https://charts.authorizer.tech
+  version: 0.1.2
+digest: sha256:6033c862fbc7de122fe44d0644e05f0b6b477a8ade254a0c112deb71517261d0
+generated: "2021-07-06T21:52:49.502638-06:00"
