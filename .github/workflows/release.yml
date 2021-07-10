@@ -28,7 +28,6 @@ jobs:
       - name: Add dependency chart repos
         run: |
           helm repo add cockroachdb https://charts.cockroachdb.com/
-          helm repo add authorizer-tech https://charts.authorizer.tech
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.2.1
