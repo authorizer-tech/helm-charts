@@ -39,7 +39,7 @@ The command removes all the Kubernetes components associated with the chart and 
 |-------------------|--------------------------------------------------------|-----------------------------------|
 | image.registry    | Container image registry                               | gcr.io                            |
 | image.repository  | Container image repository                             | authorizer-tech/access-controller |
-| image.tag         | Container image tag (immutable tags are recommended)   | v0.1.3                            |
+| image.tag         | Container image tag (immutable tags are recommended)   | v0.1.4                            |
 | image.pullPolicy  | Container image pull policy                            | IfNotPresent                      |
 | image.pullSecrets | Pull secrets for the image registry                    | []                                |
 
