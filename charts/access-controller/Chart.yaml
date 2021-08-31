@@ -2,8 +2,8 @@ apiVersion: v2
 name: access-controller
 description: A highly scalable open-source implementation of an access-control engine inspired by Google Zanzibar-"Google’s Consistent, Global Authorization System"
 type: application
-version: 0.1.4
-appVersion: "v0.1.4"
+version: 0.1.5
+appVersion: "v0.1.5"
 kubeVersion: ">= 1.12.0"
 keywords:
 - iam
