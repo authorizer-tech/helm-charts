@@ -2,7 +2,7 @@ apiVersion: v2
 name: authorizer
 description: A Helm chart for the Authorizer platform - The scalable, flexible, and fast permission and access-management platform.
 type: application
-version: 0.1.1
+version: 0.1.2
 kubeVersion: ">= 1.12.0"
 keywords:
 - iam
@@ -13,5 +13,5 @@ keywords:
 - zanzibar
 dependencies:
 - name: access-controller
-  version: "0.1.4"
+  version: "0.1.5"
   repository: https://charts.authorizer.tech
